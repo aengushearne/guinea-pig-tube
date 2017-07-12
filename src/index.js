@@ -6,8 +6,8 @@ import _ from 'lodash';
 import SearchBar from './components/search_bar.js';
 import VideoList from './components/video_list.js';
 import VideoDetail from './components/video_detail';
+import API_KEY from './config';
 
-const API_KEY = 'AIzaSyAoVm3tPaVzke13g2_vbHeeAZqqqR6mIi8'; 
 
 // component makes html
 class App extends Component {
